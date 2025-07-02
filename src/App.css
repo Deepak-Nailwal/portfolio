@@ -1,0 +1,145 @@
+.fixed-right {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.resize {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.floating-text {
+  animation: floatText 3s ease-in-out infinite;
+  color: #fff;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+@keyframes floatText {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+.font-1 {
+  font-size: 70px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000;
+}
+
+.button-1 {
+  background-color: #000;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-1:hover {
+  background-color: #333;
+  transform: scale(1.02);
+}
+
+.hover-2 {
+  color: #000;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.hover-2:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+.offcanvass-wide {
+  width: 50% !important;
+  transition: 2s ease, tranform 3s ease-out;
+}
+
+.responsive-logo {
+  max-height: 150px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+.button-1 {
+  background-color: #000;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-1:hover {
+  background-color: #333;
+  transform: scale(1.02);
+}
+
+.hover-2 {
+  color: #000;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.hover-2:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+form input,
+form textarea {
+  transition: border-color 0.3s ease;
+}
+
+.logo-animated {
+  transition: transform 0.2s ease, opacity 0.3s ease;
+  opacity: 1;
+}
+
+.logo-animated:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .responsive-logo {
+    max-height: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-logo {
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .font-1 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .font-1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
