@@ -19,7 +19,7 @@ const Testimonial = ({ img, title, text, author, role }) => (
         </a>
     </div>
 );
-const Menu = () => {
+const Work = () => {
     return (
         <>
         
@@ -98,4 +98,4 @@ const Menu = () => {
         </>
     )
 }
-export default Menu;
+export default Work;

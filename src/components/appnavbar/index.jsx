@@ -35,7 +35,7 @@ function Header() {
           <div className="container">
             <ul className="list-unstyled mb-4">
               <li>
-                <NavLink className='text-dark text-decoration-none fs-1' to="/menu">Menu</NavLink>
+                <NavLink className='text-dark text-decoration-none fs-1' to="/work">Works</NavLink>
               </li>
               <li className="mt-3">
                 <NavLink className='text-dark text-decoration-none fs-1' to="/blog">Blog</NavLink>

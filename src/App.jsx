@@ -4,7 +4,6 @@ import './App.css'
 import Header from './components/appnavbar';
 import Footer from './components/footer/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Menu from './pages/Menu';
 import About from './pages/About';
 import Touch from './pages/Get';
 import Video from './components/video/video';
