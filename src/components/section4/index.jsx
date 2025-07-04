@@ -15,7 +15,7 @@ const Section4 = () => {
               <Button className="rounded-pill py-3 px-4 me-3" variant="light">
                 Start your Project
               </Button>
-              <a href="mailto:hello@shakuro.com" className="d-block mt-4 text-white text-decoration-underline">
+              <a href="mailto:nailwaldivyanshu76@gamil.com" className="d-block mt-4 text-white text-decoration-underline">
                 hello@shakuro.com
               </a>
             </div>

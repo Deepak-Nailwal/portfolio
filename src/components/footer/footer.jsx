@@ -47,7 +47,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            <p className="mt-5 small">© 2025 Shakuro. All rights reserved.</p>
+            <p className="mt-5 small">© 2025 Deepak. All rights reserved.</p>
           </Col>
 
           <Col md={6}>
