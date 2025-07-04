@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row, Button, Form, InputGroup, Card } from "react-bootstrap";
 import Section4 from "../../components/section4";
-import Footer from "../../components/footer/footer";
 
 const Touch = () => {
   const [validated, setValidated] = useState(false);
@@ -129,9 +128,7 @@ const Touch = () => {
           </Col>
         </Row>
       </Container>
-
       <Section4 />
-      <Footer />
     </>
   );
 };

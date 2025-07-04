@@ -1,13 +1,10 @@
 import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
 import vid2 from "../../assets/img/vid2.webm";
-import Footer from "../../components/footer/footer";
 import Section4 from "../../components/section4";
-import Header from "../../components/appnavbar";
 const About =() => {
     return(
         <>
-        <Header/>
        <div className="bg-black">
          <Container className="mt-5">
             <Row>
@@ -56,7 +53,6 @@ const About =() => {
                 </Row>
             </Container>
             <Section4/>
-            <Footer/>
         </div>
         </>
     )

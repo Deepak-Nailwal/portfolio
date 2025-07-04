@@ -5,9 +5,7 @@ import img1 from "../../assets/img/girl.webp";
 import img2 from "../../assets/img/laptop.webp";
 import img3 from "../../assets/img/void.webp";
 import img4 from "../../assets/img/car.webp";
-import Footer from "../../components/footer/footer";
 import Section4 from "../../components/section4";
-import Header from "../../components/appnavbar";
 const Testimonial = ({ img, title, text, author, role }) => (
     <div className="mb-5">
         <a href="#">
@@ -24,7 +22,7 @@ const Testimonial = ({ img, title, text, author, role }) => (
 const Menu = () => {
     return (
         <>
-        <Header/>
+        
             <div className="mt-5">
                 <Container>
                     <p className="fs-4 text-black-50 fw-bold">Our Works</p>
@@ -97,7 +95,6 @@ const Menu = () => {
                 </Container>
             </div>
             <Section4/>
-            <Footer/>
         </>
     )
 }
