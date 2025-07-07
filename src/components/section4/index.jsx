@@ -16,7 +16,7 @@ const Section4 = () => {
                 Start your Project
               </Button>
               <a href="mailto:nailwaldivyanshu76@gamil.com" className="d-block mt-4 text-white text-decoration-underline">
-                nailwaldivyanshu76@gamil.com
+                nailwaldivyanshu76@gmail.com
               </a>
             </div>
 
