@@ -27,7 +27,7 @@ function Header() {
         </Row>
       </Container>
 
-      <Offcanvas show={show} onHide={handleClose} placement="end" className="offcanvass-wide hlo">
+      <Offcanvas show={show} onHide={handleClose} placement="end" className="offcanvass-wide">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
